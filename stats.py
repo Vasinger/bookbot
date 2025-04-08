@@ -13,5 +13,4 @@ def get_characters_count(text):
     return char
 
 def get_sorted_list(dict):
-    l = sorted(dict.items(), key=lambda x:x[1], reverse=True)
-    return l
+    return sorted(dict.items(), key=lambda x:x[1], reverse=True)
